@@ -1,0 +1,127 @@
+html {
+    background-color: #e0e0e0;
+}
+
+@font-face {
+    font-family: 'Ubuntu';
+    src: url(./Ubuntu-Regular.ttf);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.math{
+    font-size: 1.2em;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+    
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.header{
+    background-color: #728D7C;
+    margin-bottom: 15px;
+}
+
+.header__nav {
+    /* background-color: #97BAA4; */
+    padding: 18px 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav__logo {
+    font-family: 'Ubuntu';
+    font-size: 36px;
+    text-decoration: none;
+    color: black;
+}
+
+.nav__themes{
+    display: flex;
+    gap: 20px;
+}
+
+.nav__theme {
+    font-family: 'Ubuntu';
+    font-size: 28px;
+    text-decoration: none;
+    color: black;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+}
+
+.kinematics__title{
+    font-family: 'Ubuntu';
+    font-size: 45px;
+    font-weight:unset;
+    margin-bottom: 14px;
+}
+
+.kinematics__cards{
+    gap: 25px;
+    max-width: 1100px;
+    margin: 0 auto 30px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    padding: 0 22px;
+}
+
+.kinematics__card{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(195 195 195 / 50%);
+    padding: 10px;
+}
+
+.card__title{
+    font-family: 'Ubuntu';
+    font-size: 25px;
+    font-weight: unset;
+}
+
+.footer{
+    background-color: #728D7C;
+    padding: 18px 15px;
+}
+
+.footer__main-block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer__title{
+    font-family: 'Ubuntu';
+    font-weight: normal;
+    margin-bottom: 8px;
+}
+
+.footer__title_span{
+    color:black;
+}
+
+.footer__text{
+    font-family: 'Ubuntu';
+    font-size: 18px;
+}
+
+@media screen and (max-width:600px) {
+    .header__nav{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav__logo{
+        margin-bottom: 7px;
+    }
+}
