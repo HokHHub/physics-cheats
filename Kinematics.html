@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="header__nav nav">
+                <a class="nav__logo" href="./index.html">HokH Design</a>
+                <div class="nav__themes">
+                    <a class="nav__theme" href="./Kinematics.html" >Кинематика</a>
+                    <a class="nav__theme" href="#">Динамика</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="kinematic" id="kinematic">
+        <div class="container">
+            <div class="title">
+                <h1 class="kinematics__title">Кинематика</h1>
+            </div>
+
+            <div class="kinematics__cards">
+                <article class="kinematics__card card">
+                    <h2 class="card__title">Прямолинейное движение:</h2>
+                    <p class="math">1. s = v * t</p>
+                    <p class="math">2. V = S / t</p>
+                    <p class="math">3. x = x<sub>o</sub> + S<sub>x</sub> = x<sub>o</sub> + Vt (Уравнение координат)</p>
+                </article>
+
+                <article class="kinematics__card card">
+                    <h2 class="card__title">Прямолинейное равноускоренное движение:</h2>
+                    <p class="math">1. a = (V - V<sub>o</sub>) / t</p>
+                    <p class="math">2. V = V<sub>o</sub> + at</p>
+                    <p class="math">3. s = V<sub>o</sub>t + (a * t²) / 2</p>
+                    <p class="math">4. s = (V² - V<sub>o</sub>²) / 2a</p>
+                    <p class="math">5. x = x<sub>o</sub> + V<sub>o</sub>t + (a * t²) / 2 (Уравнение координат)</p>
+                </article>
+
+                <article class="kinematics__card card">
+                    <h2 class="card__title">Свободное падение тел:</h2>
+                    <!-- Формула 1: a = g = 1o м/с² -->
+                    <p class="math">1. a = g = 1o м/с²</p>
+
+                    <!-- Формула 2: v = gt -->
+                    <p class="math">2. v = gt</p>
+
+                    <!-- Формула 3: s = (gt²) / 2 -->
+                    <p class="math">3. s = (g * t²) / 2 = h</p>
+
+                    <!-- Формула 4: y = h - (gt²) / 2 -->
+                    <p class="math">4. y = h - (g * t²) / 2</p>
+                </article>
+
+                <article class="kinematics__card card">
+                    <h2 class="card__title">Движение вверх:</h2>
+                    <!-- Формула 1: vₓ = vo - gt -->
+                    <p class="math">1. v<sub>y</sub> = v<sub>o</sub> - gt</p>
+
+                    <!-- Формула 2: vo = gt - vₘₐₓ -->
+                    <p class="math">2. v<sub>o</sub> = gt - v<sub>max</sub></p>
+
+                    <!-- Формула 3: h = vot - (gt²) / 2 -->
+                    <p class="math">3. h = v<sub>o</sub>t - (g * t²) / 2</p>
+
+                    <!-- Формула 4: y = yo + vot - (gt²) / 2 -->
+                    <p class="math">4. y = y<sub>o</sub> + v<sub>o</sub>t - (g * t²) / 2</p>
+                </article>
+
+                <article class="kinematics__card card">
+                    <h2 class="card__title">Движение по окружности:</h2>
+                    <p class="math">1. a = v² / r</p>
+                    <p class="math">2. w = Δφ / T</p>
+                    <p class="math">3. T = [e]</p>
+                    <p class="math">4. T = 2Пr / v</p>
+                    <p class="math">5. D = 1 / T = V / 2Пr</p>
+                </article>
+
+                <article class="kinematics__card card">
+                    <h2 class="card__title">Движение тел под углом и горизонту:</h2>
+                    <p class="math">1. v<sub>ox</sub> = v<sub>o</sub>cos(α)</p>
+                    <p class="math">2. L = v<sub>x</sub>t = + v<sub>o</sub>cos(α)t</p>
+                    <p class="math">3. x = x<sub>o</sub>+ v<sub>o</sub>cos(α)t</p>
+                    <p class="math">4. v<sub>oy</sub> = v<sub>o</sub>sin(α)</p>
+                    <p class="math">5. v<sub>y</sub> = v<sub>o</sub>sin(α) - gt</p>
+                    <p class="math">7. s = v<sub>o</sub>sin(α)t - (g * t²) / 2</p>
+                    <p class="math">7. t = 2v<sub>o</sub>sin(α) / g</p>
+                    <p class="math">8. V = √(v<sub>x</sub>² + v<sub>oy</sub>²)</p>
+                    <p class="math">9. x<sub>max</sub> = (v<sub>o</sub>²sin(2α)) / g</p>
+                </article>
+
+                <article class="kinematics__card card">
+                    <h2 class="card__title">Движение тел брошенного горизонтально:</h2>
+                    <p class="math">1. v<sub>x</sub> = v<sub>o</sub></p>
+                    <p class="math">2. l = v<sub>ox</sub>t = v<sub>o</sub>t</p>
+                    <p class="math">3. v<sub>y</sub> = gt</p>
+                    <p class="math">4. h = (g * t²) / 2</p>
+                    <p class="math">5. y = y<sub>o</sub> - (g * t²) / 2</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <div class="container">
+            <div class="footer__main-block">
+                <h1 class="footer__title">Если Вы увидели, что какой-то формулы не хватает - можете отправить ее по <a class="footer__title_span" href="https://forms.yandex.ru/u/6712b17e5d2a06974c5f7953/" target="_blank">форме (*кликабельно*)</a></h1>
+                <p class="footer__text">*сайт находится в разработке*</p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
