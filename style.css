@@ -55,6 +55,7 @@ html {
 .nav__themes {
     display: flex;
     gap: 20px;
+    align-items: center;
 }
 
 .nav__theme {
@@ -276,7 +277,7 @@ html {
 .header__nav_logo {
     display: flex;
     align-items: center;
-    margin-bottom: 15px;
+    /* margin-bottom: 15px; */
 }
 
 @media screen and (max-width:600px) {
